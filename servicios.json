@@ -1,0 +1,54 @@
+{
+    "servicios": [
+        {
+            "id": 1,
+            "nombre": "Consulta General",
+            "precio": 50
+        },
+        {
+            "id": 2,
+            "nombre": "Atención del embarazo de riesgo",
+            "precio": 100
+        },
+        {
+            "id": 3,
+            "nombre": "Ultrasonido obstétrico e ginecológico",
+            "precio": 210
+        },
+        {
+            "id": 4,
+            "nombre": "Enfermedades ginecológicas",
+            "precio": 180
+        },
+        {
+            "id": 5,
+            "nombre": "Consejería  nutricional",
+            "precio": 60
+        },
+        {
+            "id": 6,
+            "nombre": "Parto",
+            "precio": 540
+        },
+        {
+            "id": 7,
+            "nombre": "Inyectables",
+            "precio": 40
+        },
+        {
+            "id": 8,
+            "nombre": "Prueba de medición de azúcar en sangre",
+            "precio": 120
+        },
+        {
+            "id": 9,
+            "nombre": "Aplicación de fluór en niños y niñas",
+            "precio": 80
+        },
+        {
+            "id": 10,
+            "nombre" : "Inspección Visual con Ácido Acético",
+            "precio": 180
+        }
+    ]
+}

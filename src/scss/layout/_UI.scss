@@ -1,0 +1,28 @@
+.display{
+	@include tablet{
+		@include grid(2, 0);
+		height: 100vh;
+	}
+	height: 100%;
+	.hero{
+		background-image: url(../img/oso_doctor.jpg);
+		background-size: cover;
+		background-position: center center;
+		height: 50rem;
+		@include tablet{
+			height: auto;
+		}
+	}
+	.app{
+		width: 95%;
+		margin: 0 auto;
+		max-width: 1200px;
+		padding-bottom: 4rem;
+	}
+}
+section{
+	display: none;
+}
+.mostrar-seccion{
+	display: block !important;
+}
