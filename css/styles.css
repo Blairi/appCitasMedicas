@@ -463,6 +463,8 @@ section {
   .contenido-resumen .total {
     text-align: right;
     font-size: 2.4rem; }
+  .contenido-resumen .datos-resumen p {
+    text-transform: capitalize; }
 
 .resumen-servicios .contenedor-servicio {
   width: 100%;
