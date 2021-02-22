@@ -18,5 +18,12 @@
 			font-weight: $black;
 			font-size: 3rem;
 		}
+		&.seleccionado{
+			background: $rosa;
+			.nombre-servicio,
+			.precio-servicio{
+				color: $blanco;
+			}
+		}
 	}
 }

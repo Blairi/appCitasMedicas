@@ -1,4 +1,6 @@
 .display{
+	display: flex;
+	flex-direction: column-reverse;
 	@include tablet{
 		@include grid(2, 0);
 		height: 100vh;
@@ -8,7 +10,7 @@
 		background-image: url(../img/oso_doctor.jpg);
 		background-size: cover;
 		background-position: center center;
-		height: 50rem;
+		height: 15rem;
 		@include tablet{
 			height: auto;
 		}
@@ -25,4 +27,13 @@ section{
 }
 .mostrar-seccion{
 	display: block !important;
+}
+.alerta{
+	width: 100%;
+	padding: 2rem;
+	text-align: center;
+	&.error{
+		background: $rojo;
+		color: $blanco;
+	}
 }

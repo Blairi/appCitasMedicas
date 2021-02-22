@@ -1,0 +1,24 @@
+.contenido-resumen{
+	width: 80%;
+	margin: 0 auto;
+	p{
+		span{
+			color: $rosa;
+		}
+	}
+	.total{
+		text-align: right;
+		font-size: 2.4rem;
+	}
+}
+.resumen-servicios{
+	.contenedor-servicio{
+		width: 100%;
+		background: $gris;
+		border-bottom: .4rem solid $rosa;
+		border-radius: .5rem;
+		padding: 1rem 2rem;
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+}
